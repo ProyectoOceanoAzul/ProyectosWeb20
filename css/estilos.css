@@ -756,6 +756,21 @@ span.donacion a:hover{
     }
 
 
+
+    
+    div.grupo_clientes div.clientes
+    {
+        float: left;
+        width: 15%;
+        
+        
+    }
+
+    div.grupo_clientes div.clientes img{
+        width: 100%;
+    }
+
+
 }
 
 
