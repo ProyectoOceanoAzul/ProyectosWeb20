@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+
+<!-- <!DOCTYPE html>    indicamos al navegaor q estamos trabajando con la ultima version de html5  -->
+
+<html lang="es">
+
+<!-- head   : van los metadatos informaocion q indiucamos al navegador para q identifique de forma correcta la pagian web -->
+
+<head>
+
+    <!-- html lang="es">    indica en q idioma esta escrinto el docuimento html -->
+
+    <!-- indicamos al navegador q tenbemos vocales con tilde -->
+    <!-- Lea codigo ASCII-->
+    <meta charset="UTF-8">
+
+    <!-- Para q el visitio web sea adaptable a cualquier dispositivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- contniendio de la pagina web -->
+    <meta name="description" content="Esta es mi primera pagina web">
+
+    <!-- para el motor de busquedad busque mi pagina / escanear-->
+    <meta name="robots" content="index, follow">
+
+    <!-- palabras claves para encontrar mi pagina web -->
+    <meta name="keywords" content="pagina, website, sitio web, mi primera">
+
+    <!-- Nombre de nuestra página -->
+    <meta name="copyright" content="Copyright © MiWeb.com">
+
+    <!-- Indicarle al autor de quien ha creado la pagina web -->
+    <meta name="Author" Lang="es" content="Gerson N">
+
+
+
+    <!-- para q la pagina se recargue cada 10 segundos de acuerdo al contenido 
+    <meta http-equiv="refresh" content="10" />
+    -->
+
+
+    <!-- 
+    observacion : para q despues de 5 segundos se recargue otra pogina web 
+
+    <meta http-equiv="refresh" content="5; url=https://www.youtube.com/@geronelo1435" />    
+    -->
+
+
+    <!-- normalize : agregamos un archivo .css -->
+    <link rel="stylesheet" href="./css/normalize.css">
+
+
+    <!-- estilos css : agregamos un archivo .css -->
+    <link rel="stylesheet" href="./css/estilos.css">
+
+
+
+
+    <!-- icono en la pagina web : para importar iconos -->
+    <link rel="shortcut icon" href="./imagenes/icon.png" type="image/x-icon">
+
+    <!-- 
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    -->
+
+    <!-- enlace para icnos de fontawesome -->
+    <script src="https://kit.fontawesome.com/2ad58faca7.js" crossorigin="anonymous"></script>
+
+
+
+    <!-- 
+    colocar un nombre referido a lo q contiene el documento html  y se mostrara en una pestaña -->
+    <title>Maquetacion</title>
+
+</head>
+
+
+<body>
+
+    <!-- contenedor header -->
+    <header class="contenedor__header" id="Home">
+
+        <!-- contenedor__superior -->
+        <nav class="contenedor__superior">
+
+            <div class="contenedor">
+
+                <!-- logo -->
+                <div class="superior__logo">
+                    <h1 class="logo__titulo">Gradients</h1>
+                </div>
+
+                <!-- menu -->
+                <div class="superior__menu">
+                    <ul class="menu__opciones">
+                        <li><a href="#Services">Services</a></li>
+                        <li><a href="#Testimonial">Testimonial</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+        </nav>
+
+
+    </header>
+
+    <!-- contenedor__banner -->
+    <section class="contenedor__banner">
+
+        <div class="contenedor">
+
+
+            <!-- banner__titulo -->
+            <div class="banner">
+
+                <img src="./imagenes/logo.png" alt="logo" title="logo">
+
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, similique sit. Facilis quia
+                    corrupti quo vero amet quibusdam reprehenderit doloribus!
+                </p>
+
+                <a href="#Services">
+                    Services
+                </a>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+    <section class="contenedor__clientes">
+        <div class="contenedor">
+
+            <div class="grupo_clientes">
+
+                <div class="clientes">
+                    <img src="./imagenes/client-1.png" alt="client-1" title="client-1">
+                </div>
+
+                <div class="clientes">
+                    <img src="./imagenes/client-2.png" alt="client-2" title="client-2">
+                </div>
+
+                <div class="clientes">
+                    <img src="./imagenes/client-3.png" alt="client-3" title="client-3">
+                </div>
+
+                <div class="clientes">
+                    <img src="./imagenes/client-4.png" alt="client-4" title="client-4">
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+    <section class="contenedor__services" id="Services">
+        <div class="contenedor">
+
+            <h4>This is our Services</h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, non ullam. Possimus deserunt accusamus
+                sequi.
+            </p>
+
+
+            <div class="grupo_services">
+
+                <div class="services">
+                    <img src="./imagenes/service-1.png" alt="service-1" title="service-1">
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi tempora illum explicabo ipsum
+                        quaerat reiciendis velit commodi, enim at autem?
+                    </p>
+                </div>
+
+
+                <div class="services">
+                    <img src="./imagenes/service-2.png" alt="service-2" title="service-2">
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi tempora illum
+                        explicabo ipsum
+                        quaerat reiciendis velit commodi, enim at autem?
+                    </p>
+                </div>
+
+
+
+
+                <div class="services">
+                    <img src="./imagenes/service-3.png" alt="service-3" title="service-3">
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi tempora illum
+                        explicabo ipsum
+                        quaerat reiciendis velit commodi, enim at autem?
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+
+    <section class="contenedor__Testimonial" id="Testimonial">
+        <div class="contenedor">
+
+
+            <h4>Testimonial</h4>
+
+            <p class="parrafo1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, non ullam. Possimus deserunt
+                accusamus
+                sequi.
+            </p>
+
+            <div class="texto">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio quam porro non iure id
+                    obcaecati earum consequatur, possimus reprehenderit eveniet, fugit facilis eaque dolores voluptas
+                    voluptatem? Quaerat soluta molestias eum, laudantium consectetur incidunt saepe iusto sit rerum
+                    reprehenderit porro quia similique vitae perspiciatis dolores omnis! Inventore quidem quaerat
+                    perspiciatis blanditiis esse doloribus quibusdam obcaecati ut cumque qui distinctio, error eligendi
+                    non. Laudantium reprehenderit hic tenetur praesentium? Tempore tempora ex ea vel reiciendis, quae
+                    atque dignissimos quia inventore suscipit voluptates? In qui sed magnam inventore, repellendus
+                    consequuntur ipsam facilis pariatur enim, minima nulla earum repudiandae. Inventore aspernatur
+                    distinctio fuga ut veritatis?
+                </p>
+
+            </div>
+
+
+
+
+            <div class="testimonial">
+
+                <div class="testimonial__lado1">
+                    <img src="./imagenes/testimonial.jpg" alt="testimonial" title="testimonial">
+                </div>
+
+
+                <div class="testimonial__lado2">
+                    <p>
+                        Jane Doe <br>
+                        Manager
+                    </p>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+
+
+    <section class="contenedor__contact" id="Contact">
+        <div class="contenedor">
+
+            <h4>
+                Send us a Message
+            </h4>
+
+
+
+            <form action="#">
+                <div class="form__group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre" required="Yes"
+                        class="form__control">
+                </div>
+
+
+                <div class="form__group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Email" required="Yes"
+                        class="form__control">
+                </div>
+
+
+                <div class="form__group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje" required="Yes"
+                        class="form__control"></textarea>
+                </div>
+
+                <button>Enviar Mensaje</button>
+
+            </form>
+
+
+        </div>
+
+    </section>
+
+
+
+
+    <!-- pie -->
+    <footer class="contenedor__footer">
+        <div class="contenedor">
+
+            <div class="pie__titulo">
+                <p>
+                    &copy;2024, Derechos Reservados, Diseñado por
+                    <span class="autor">93R50N</span>
+
+                    <br>
+                    Cada aporte, por más pequeño que sea, puede marcar la diferencia en la vida de una persona.
+                    Donación:
+                    <span class="donacion">
+                        <a href="https://wa.link/5nawh3"> Plin o Yape</a>
+                    </span>
+                </p>
+
+            </div>
+
+        </div>
+    </footer>
+
+
+
+</body>
+
+
+
+</html>

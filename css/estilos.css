@@ -1,0 +1,583 @@
+
+/*Google Fons       recomendable realizar la importacion del mismo archivo .css */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+/*bootstrap Iconos*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
+
+/*Para resetear*/
+*{
+
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    
+
+    outline: 1px solid red;
+
+
+
+    -webkit-box-sizing: border-box;
+
+}
+
+
+
+html,
+body{
+
+
+    /*
+    font-family: "Merriweather", serif;
+    font-family: "Open Sans", sans-serif;
+    */
+
+    /*Estilo 1 de parrafo*/
+    font-family: "Montserrat", sans-serif;
+
+
+    background-color: var(--colorEstilo1);
+
+    /*desplazamieento suave cuando se usa navevacion por ancla*/
+    scroll-behavior: smooth;
+
+}
+
+
+/*Estilos generales*/
+:root{
+
+    --colorEstilo1:#FFFFFF;
+    --colorEstilo2:#F9F9F9;
+    --colorEstilo3:#000000;
+
+    --colorEstilo4:#0E0A27;
+    --colorEstilo5:#D0004A;
+    --colorEstilo6:#6C1098;
+    --colorEstilo7:#2231E9;
+    --colorEstilo8:#3E3A52;
+
+
+
+
+}
+
+
+/*Estilos genraels*/
+
+
+h1{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    color: var(--colorEstilo1);
+}
+
+
+h4{
+    font-size: 1.5rem;
+}
+
+
+a{
+    text-decoration: none;
+    color: var(--colorEstilo3);    
+}
+
+a:hover{
+    text-decoration: line-through;
+}
+
+p{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin: 10px 0;
+}
+
+
+
+/*contenedor*/
+div.contenedor{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 10px;
+
+
+    overflow: auto; /********************************/
+}
+
+
+
+
+nav.contenedor__superior{
+    overflow: auto;
+    background-color: var(--colorEstilo4);
+}
+
+div.superior__logo{
+    float: left;
+}
+
+div.superior__menu{
+    float: right;
+}
+
+
+
+div.superior__menu ul.menu__opciones{
+    list-style: none;
+}
+
+
+div.superior__menu ul.menu__opciones li{
+    float: left;
+}
+
+
+div.superior__menu ul.menu__opciones li a{
+    color: var(--colorEstilo1);
+
+    display: block;
+    padding: 20px;
+}
+
+
+
+/*****************************************************/
+/*contenedor__banner*/
+section.contenedor__banner{
+    height: 95vh;
+    text-align: center;
+
+    padding: 100px 0;
+    background-color: var(--colorEstilo4);
+}
+
+div.banner img{
+    width: 50%;
+    text-align: center;
+}
+
+
+div.banner p{
+    width: 50%;
+    padding: 40px 0;
+    margin: 0 auto;
+    color: var(--colorEstilo1);
+}
+
+
+div.banner a{
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: var(--colorEstilo5);
+    color: var(--colorEstilo1);
+    border-radius: 5px;    
+}
+
+
+/*****************************************************/
+/*contenedor__clientes*/
+section.contenedor__clientes{
+    height: 100%;
+    padding: 50px 0;
+    background: linear-gradient(to right, var(--colorEstilo7), var(--colorEstilo5));
+}
+
+
+div.grupo_clientes{
+    background-color: #2231E9;
+    width: 100%;  
+    
+}
+
+
+div.grupo_clientes div.clientes{
+    float: left;
+    width: 16%;
+    margin: 0 50px;
+
+}
+
+div.grupo_clientes div.clientes img{
+    width: 100%;
+
+}
+
+
+/*****************************************************/
+/*contenedor__services*/
+section.contenedor__services{
+    background-color: var(--colorEstilo4);
+    padding: 100px 0;
+}
+
+section.contenedor__services h4{
+    color: var(--colorEstilo1);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+section.contenedor__services p{
+    color: var(--colorEstilo1);
+    text-align: center;
+    font-size: 1rem;
+}
+
+div.grupo_services{
+    margin-top: 70px;    
+}
+
+div.grupo_services div.services{
+    text-align: center;
+    float: left;
+    width: 30%;
+    margin: 0 20px;
+    
+}
+
+div.grupo_services div.services img{
+    width: 50%;
+}
+
+
+
+/*****************************************************/
+/*contenedor__Testimonial*/
+section.contenedor__Testimonial{
+    background-color: var(--colorEstilo8);
+    padding: 100px 0;
+}
+
+section.contenedor__Testimonial h4{
+    color: var(--colorEstilo1);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+section.contenedor__Testimonial p.parrafo1{
+    color: var(--colorEstilo1);
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 70px;
+
+}
+
+section.contenedor__Testimonial div.texto p{
+    color: var(--colorEstilo1);
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+
+
+div.testimonial div.testimonial__lado1{
+    float: left;
+    width: 50%;    
+    text-align: right;        
+}
+
+
+div.testimonial div.testimonial__lado2{
+    float: left;
+    width: 50%;
+}
+
+div.testimonial div.testimonial__lado1 img{
+    border-radius: 50%;
+    width: 80px;
+}
+
+div.testimonial div.testimonial__lado2 p{
+    text-align: left;
+    padding: 10px 20px;
+    color: var(--colorEstilo1);
+    font-size: 1rem;
+}
+
+
+
+/*****************************************************/
+/*contenedor__contact*/
+section.contenedor__contact{
+    background-color: var(--colorEstilo4);
+    padding: 100px 0;
+}
+
+section.contenedor__contact h4{
+    color: var(--colorEstilo1);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+form{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+div.form__group{
+    margin-bottom: 1rem ;
+}
+
+form label{
+    display: block;
+    margin-bottom: 0.6rem;
+    font-weight: 400;
+    color: var(--colorEstilo1);
+    text-align: left;
+}
+
+.form__control{
+    width: 100%;
+    background-color: #EDEDED;
+    color: var(--colorEstilo3);
+    font-weight: 300;
+    
+}
+
+form input,
+form textarea{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+form textarea{
+    line-height: 1.4rem;
+}
+
+
+form button{
+    width: 100%;
+    padding: 10px 0;
+    background-color: var(--colorEstilo5);
+    color: var(--colorEstilo2);
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+form button:hover{
+    border: 1px solid var(--colorEstilo5);
+    background-color: var(--colorEstilo1);
+    color: var(--colorEstilo5);
+}
+
+
+
+
+/**************************************/
+/*contenedor__footer*/
+footer.contenedor__footer{
+    background-color: var(--colorEstilo8);
+}
+
+div.pie__titulo p{
+    text-align: center;
+    font-size: 11px;
+    padding: 10px 0;
+    margin: 10px 0;
+
+    color: var(--colorEstilo2);
+}
+
+span.autor
+{
+    color: var(--colorEstilo2);
+    font-weight: 600;
+}
+
+
+span.donacion a
+{
+    color: var(--colorEstilo2);
+    font-weight: 600;
+
+}
+
+span.donacion a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+/**************************************/
+/*Responsive*/
+@media only screen and  (max-width: 575.98px) and
+                        (max-width: 767.98px) and
+                        (max-width: 991.98px) and
+                        (max-width: 1199.98px) and
+                        (max-width: 1399.98px)
+{
+
+
+    /*contenedor__header*/
+    div.superior__logo{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+
+    div.superior__menu{
+        float: none;
+        width: 100%;
+        text-align: center;        
+    }
+
+
+    div.superior__menu ul.menu__opciones li{
+        float: none;
+        width: 100%;
+        text-align: center;           
+    }
+
+    div.superior__menu ul.menu__opciones li a{
+        display: block;
+        padding: 10px 0;
+    }
+
+
+    /*contenedor__banner*/
+    section.contenedor__banner{
+        padding: 40px 0;        
+        height: 100%;
+    }
+
+
+
+    section.contenedor__banner img{        
+        width: 80%;
+
+    }
+
+
+    section.contenedor__banner p{
+        width: 80%;
+        font-size: 1rem;
+    }
+
+
+
+    /*contenedor__clientes*/
+    div.grupo_clientes div.clientes{
+        width: 40%;        
+        margin-bottom: 20px;        
+    }
+
+
+
+
+
+
+
+
+
+    /*contenedor__services*/
+    section.contenedor__services{
+        padding: 40px 0;        
+        height: 100%;
+    }
+
+
+   section.contenedor__services p{
+        font-size: 0.9rem;
+        margin-bottom: 30px;
+        text-align: justify;
+        padding: 0 10px;
+    }
+
+    div.grupo_services{
+        margin-top: 10px;
+    }
+
+    div.grupo_services div.services{
+        float: none;
+        width: 100%;
+        margin: 0;
+        padding: 0 10px;
+    }
+
+    div.grupo_services div.services img{
+        width: 40%;
+    }
+
+    div.grupo_services div.services p{
+        font-size: 0.8rem;
+        text-align: justify;
+    }
+
+
+
+
+
+    /*contenedor__Testimonial*/
+    section.contenedor__Testimonial{
+        padding: 40px 0;        
+        height: 100%;
+    }
+
+
+
+    section.contenedor__Testimonial p.parrafo1{
+        font-size: 0.9rem;
+        margin-bottom: 30px;
+        padding: 0 10px;
+        text-align: justify;
+    }
+
+    section.contenedor__Testimonial div.texto p{
+        font-size: 0.8rem;
+        text-align: justify;
+        padding: 0 10px;
+    }
+
+
+
+
+
+
+    /*contenedor__contact*/
+    section.contenedor__contact{
+        padding: 40px 0;        
+        height: 100%;
+    }
+
+    div.contenedor form{
+        width: 90%;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
